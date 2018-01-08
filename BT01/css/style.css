@@ -1,0 +1,48 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+div#bg{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+
+.carousel
+{
+	margin: auto;
+	width: 80%;
+}
+.row{
+	margin-right: auto;
+}
+
+
+.navbar-nav{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 17px;
+}
+.navbar-inverse .navbar-nav>li
+{
+	padding: 0px;
+}
+.navbar-inverse .navbar-nav>li>a
+{	border-right: 1px solid;
+	color:black;
+	text-shadow:none;
+	min-height: 70px;
+}
+.navbar-inverse .navbar-nav>li>a:hover
+{
+
+	border-bottom: 3px solid #fe527a;
+	color:pink;
+}
+.mac{
+	margin-left:-100px;
+	position: absolute;
+}
